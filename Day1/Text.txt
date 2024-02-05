@@ -1,0 +1,59 @@
+Things to keep in mind while designing a website:
+
+- What the users are looking for? : Don't go fancy for every website.
+- Easy navigation
+- Website must look pretty..
+
+Step1: Linking HTML and CSS
+
+Using link tag just before the end of head tag..
+<link rel="stylesheet" href="style.css" />
+
+To target a specific tag we use class.
+<h1 class="class-name"></h1>
+
+- The class-name can be anything must must be meaningful.
+- This class-name is used in CSS with the help of "."
+- We can comment anything with the help of Ctrl+ '/' => Shortcut
+
+Box Model:
+
+Q1. When do we use a div?
+A: When we need to club things together => need to apply the same property for particular set of elements...
+   By Default it doesn't have any input on it's own.
+
+Box model consists of 3 things:
+- Border
+- Padding
+- Margin
+
+Border:
+- Consists properties of thickness, style[solid, dotted, dashed] and color.
+- Used to draw a border around a div or any such component
+
+Padding:
+
+- Used to create space between the border and the content inside the border
+- padding: 50px;
+
+Margin: 
+
+- Used to create space outside the border
+- Syntax: margin: 50px;
+
+---------------------------------------------------
+
+Border-radius: Used to make the border rounded...
+
+Q. When to use % and when to use px?
+A: % is used when we refer to the parent element and px is used to define particularly that specific element..
+
+img{
+    width: 100% => Fits inside the box as the parent element is box-model
+}
+
+Q. How to center a div?
+A: put a margin and give margin:auto which gives equal space from both left and right and the div is centered
+
+*** Box-sizing: border-box ensures that the element is not going out of the parent element. 
+We can add the necessary padding and margin..
